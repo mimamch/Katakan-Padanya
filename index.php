@@ -4,7 +4,7 @@ $conn = mysqli_connect('localhost', 'root', '', 'table');
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 };
-include 'isi.php';
+
 
 $berhasil = '';
 

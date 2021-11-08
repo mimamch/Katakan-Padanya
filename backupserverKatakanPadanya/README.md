@@ -1,2 +1,0 @@
-# Katakan-Padanya
-# Katakan-Padanya

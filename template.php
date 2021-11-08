@@ -6,7 +6,7 @@ $link = explode("/", $link);
 $link = $link[2];
 
 
-$conn = mysqli_connect('localhost', 'root', '', 'user');
+$conn = mysqli_connect('localhost', 'root', '', 'table');
 $tabel = $link;
 $result = mysqli_query($conn, "SELECT * FROM $tabel ORDER BY id DESC");
 

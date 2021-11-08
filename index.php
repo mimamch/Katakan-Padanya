@@ -1,6 +1,5 @@
 <?php
-
-$conn = mysqli_connect('localhost', 'root', '', 'user');
+$conn = mysqli_connect('localhost', 'root', '', 'table');
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
@@ -23,7 +22,7 @@ if (isset($_POST["buat"])) {
 
 
             $buatfile = fopen($lokasi, "w+");
-            fwrite($buatfile, "$php");
+            fwrite($buatfile, "<?php include '../../template.php';?>");
 
 
 
@@ -58,8 +57,8 @@ mysqli_close($conn);
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Katakan Padanya</title>
-    <link rel="stylesheet" href="style.css?ver=2.7">
+    <title>KATAKAN PADANYA TANPA DIKETAHUI</title>
+    <link rel="stylesheet" href="style.css?ver=2.8">
     <link rel="icon" type="image/png" href="favicon.png">
 </head>
 
@@ -73,7 +72,7 @@ mysqli_close($conn);
             <input class="nama" name="nama" autocomplete="off" placeholder="Masukkan Nama (Tanpa Spasi)" type="text" required>
             <button type="submit" name="buat" class="btn">BUAT</button>
         </form>
-
+        
         <div class="carapenggunaan">
             <ol>
                 <h2>CARA PENGGUNAAN :</h2>
@@ -96,5 +95,3 @@ mysqli_close($conn);
     </div>
 
 </body>
-
-</html>

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #ecf0f1;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px rgba(248, 248, 248, .6);
+}
+
+.container {
+    width: 90%;
+    background: #2c3e50;
+    position: absolute;
+    left: 50%;
+    top: 2%;
+    transform: translate(-50%);
+    padding: 25px;
+    border-radius: 20px;
+    min-height: 80%;
+    box-shadow: 0 0 20px 20px rgba(44, 62, 80, .5);
+}
+
+.jumlahpengguna {
+    padding-left: 30px;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+}
+
+.containerpengguna {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+
+
+}
+
+.daftarpengguna {
+    padding: 5px 2px;
+    width: 30vw;
+    max-width: 150px;
+    overflow: hidden;
+    background: rgba(236, 240, 241, .2);
+    text-align: center;
+    text-decoration: none;
+    color: #ecf0f1;
+    border-radius: 5px;
+    transition: .3s;
+    margin: 10px auto;
+    border: 3px solid rgba(44, 62, 80, 1.0);
+    box-shadow: 0 0 3px 3px rgba(149, 165, 166, .2);
+}
+
+.daftarpengguna:hover {
+    background: rgba(236, 240, 241, .5);
+
+}
+
+.logout {
+    border: 1px solid #ecf0f1;
+    margin: 0;
+    padding: 10px;
+    background: transparent;
+    color: #ecf0f1;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    transition: .5s;
+}
+
+.logout:hover {
+    background: #3498db;
+}

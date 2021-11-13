@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,500&display=swap');
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #2c3e50;
+    color: #2c3e50;
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #2c3e50;;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.container {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 95%;
+    max-width: 700px;
+    background: #ecf0f1;
+    padding: 40px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    min-height: 90%;
+}
+
+
+
+.nama {
+    border: 2px solid #6c5ce7;
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    background: none;
+    padding: 0 5px;
+}
+
+.btn {
+    color: #34495e;
+    margin: 5px 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 700;
+    background: none;
+    border: 1px solid #34495e;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0;
+    transition: .5s;
+}
+
+.btn:hover {
+    background: #34495e;
+    color: white;
+    letter-spacing: 2.5px;
+}
+
+
+.carapenggunaan ol,
+ul {
+    box-sizing: border-box;
+    margin-top: 30px;
+    text-align: start;
+    width: 100%;
+    padding: 0 5px;
+    /* border: 1px solid black; */
+    font-size: 1em;
+    line-height: 1.5em;
+
+}
+
+
+
+
+
+
+.creator {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 12px;
+    text-align: center;
+    color: #2c3e50;
+}
+
+.linkcreator {
+    text-decoration: none;
+    font-size: 14px;
+    color: #3498db;
+}
+
+.linkcreator:hover {
+
+    font-size: 18px;
+    transition: .3s;
+}
+
+.berhasil {
+    color: #c0392b;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+}
